@@ -39,10 +39,14 @@
 <script>
 export default {}
 </script>
-<style lang="less" scoped>
+<style lang="less">
 .w {
   width: 1200px;
   margin: auto;
+}
+.h3 {
+  padding: 10px 0px;
+  color: rgb(51, 51, 51);
 }
 .header {
   position: fixed;
@@ -111,7 +115,6 @@ export default {}
   border-top: 1px solid #eee;
   color: #bdc3c7;
   font-size: 14px;
-  margin-top: 80px;
   border-top: 1px solid #eee;
   .footer_top {
     height: 60px;
