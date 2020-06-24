@@ -3,9 +3,15 @@ import {
   Carousel,
   CarouselItem,
   Input,
-  Button
+  Button,
+  Tabs,
+  TabPane,
+  Pagination
 } from 'element-ui'
 Vue.use(Carousel)
 Vue.use(CarouselItem)
 Vue.use(Input)
 Vue.use(Button)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Pagination)
