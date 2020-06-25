@@ -293,21 +293,12 @@ export default {
         {
           name: 'sunon | 还是要飞',
           url: 'https://www.zjhuiwan.cn/book'
-        },
-        {
-          name: '黄信强博客',
-          url: 'https://www.hxinq.com/'
-        },
-        {
-          name: 'Nutssss’blog',
-          url: 'https://blog.nutssss.cn/'
-        },
-        {
-          name: 'sunon | 还是要飞',
-          url: 'https://www.zjhuiwan.cn/book'
         }
       ]
     }
+  },
+  created() {
+      console.log('22')
   }
 }
 </script>

@@ -5,7 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <title><%= htmlWebpackPlugin.options.isProd ? '' : 'dev - ' %>我的博客</title>
+    
+    <!-- htmlWebpackPlugin.options.isProd 参数是在vue.config.js里设置判断发布和开发 -->
+    <!-- 开发时候执行 -->
+    <% if(htmlWebpackPlugin.options.isProd){%>
+    
+    <link rel="stylesheet" href="https://unpkg.com/element-ui@2.13.2/lib/theme-chalk/index.css">
+   <!-- vue -->
+   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+   <!-- vue-router -->
+   <script src="https://cdn.staticfile.org/vue-router/3.0.1/vue-router.min.js"></script>
+   <!-- element-ui -->
+   <script src="https://unpkg.com/element-ui@2.13.2/lib/index.js"></script>
+   <!-- axios -->
+   <script type="text/javascript" src="https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.js"></script>
+   <script type="text/javascript" src="https://cdn.bootcss.com/axios/0.19.0-beta.1/axios.js"></script>
+    <%}%>
   </head>
   <body>
     <noscript>

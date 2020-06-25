@@ -6,7 +6,8 @@ import {
   Button,
   Tabs,
   TabPane,
-  Pagination
+  Pagination,
+  Card
 } from 'element-ui'
 Vue.use(Carousel)
 Vue.use(CarouselItem)
@@ -15,3 +16,4 @@ Vue.use(Button)
 Vue.use(Tabs)
 Vue.use(TabPane)
 Vue.use(Pagination)
+Vue.use(Card)
